@@ -18,43 +18,13 @@
     background: none;
 }
 
-body {
-    font-family: 'Exo 2', sans-serif;
-    display: flexbox;
-    /* justify-content: center;
-    align-items: center;   */
-    background: #000;
-    min-height: 100vh;
-    height: 100%;
-    /* margin: 0%; */
-}
-  
-#header{
-    /* background-color: #2bd1fc; */
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    /* width: 30%; */
-}
 
-#IIITK {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    animation: flicker 1.5s infinite alternate; 
-}
-
-#Info {
-    flex: 1;
-    margin-left: 5rem;
-}
-
-.neon {
+.neon2 {
     text-align: center;
     display: inline-block;    
     cursor: default;
     font-size: 5rem;
     font-weight: 200;
-    font-style: italic;
     color: #fff;
     padding: 2rem 4rem 2rem;
     border: 0.4rem solid #fff;
@@ -79,11 +49,11 @@ body {
         inset 0 0 4rem var(--neon-border-color);  
 }
 
-.neon:focus {
+.neon2:focus {
     outline: none;
 }
 
-.neon:hover {
+.neon2:hover {
     color: var(--neon-black);
 }
 /* 
